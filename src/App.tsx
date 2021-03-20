@@ -1,12 +1,13 @@
 import React from 'react';
-import { Banner } from './components/Banner'
+import { Skeleton } from './components/AppSkeleton';
+import {Banner} from './components/top-banner/Banner';
 
 class App extends React.Component {
     render() {
         return (
-            <Banner>
-                <h1>Hello</h1>
-            </Banner>
+            <Skeleton>
+                <Banner />
+            </Skeleton>
         )
     }
 }
