@@ -1,10 +1,12 @@
 import React from 'react';
-import './index.css'
+import { Banner } from './components/Banner'
 
 class App extends React.Component {
     render() {
         return (
-            <h1>Hello!</h1>
+            <Banner>
+                <h1>Hello</h1>
+            </Banner>
         )
     }
 }
