@@ -7,13 +7,10 @@ class WelcomeMsg extends React.Component {
                 <h1>Hey there!</h1>
                 <h1>I am Reinhold</h1>
                 <hr id="divider" className="my-6 md:my-8"/>
-                <a href="https://github.com/reinhold-b">
-                    <button className="bg-indigo-800 hover:bg-indigo-500 w-60 h-12 lg:h-20 shadow-2xl rounded-2xl lg:rounded-3xl">
-                        <p className="text-white font-bold text-2xl lg:text-4xl">
-                           GitHub
-                        </p>
-                    </button>
-                </a>
+                <div className="text-lg text-indigo-500 text-opacity-80 w-80">
+                    I am student who enjoys coding and learning new technologies to make great projects in the future.
+                    Right now I am developing a Flutter app and learning ReactJS.
+                </div>
             </div>
        )
     }
