@@ -10,7 +10,7 @@ class WelcomeMsg extends React.Component {
                 <a href="https://github.com/reinhold-b">
                     <button className="bg-indigo-800 hover:bg-indigo-500 w-60 h-12 lg:h-20 shadow-2xl rounded-2xl lg:rounded-3xl">
                         <p className="text-white font-bold text-2xl lg:text-4xl">
-                           Gitub
+                           GitHub
                         </p>
                     </button>
                 </a>
